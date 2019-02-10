@@ -14,6 +14,7 @@
                                         <img src="{{ asset('storage/image/' . $headline->image_path) }}">
                                     @endif
                                 </div>
+                                <p>あああ</p>
                                 <div class="title p-2">
                                     <h1>{{ str_limit($headline->title, 70) }}</h1>
                                 </div>
